@@ -1,0 +1,20 @@
+{
+    "image": [
+        {
+            "id": 0,
+            "image": "bg1.jpg"
+        },
+        {
+            "id": 1,
+            "image": "27f448b9bc28a78b88a873b0cb1cc3a588c0a1f19a3cf9cb6be18f733d566c34.jpg"
+        },
+        {
+            "id": 2,
+            "image": "bg3.jpg"
+        },
+        {
+            "id": 3,
+            "image": "bg4.jpg"
+        }
+    ]
+}

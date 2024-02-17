@@ -1,0 +1,1266 @@
+{
+    "search_metadata": {
+        "id": "65b94042d5b1c5e2b8409201",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/4fa6782600abd916/65b94042d5b1c5e2b8409201.json",
+        "created_at": "2024-01-30 18:30:26 UTC",
+        "processed_at": "2024-01-30 18:30:26 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=id&gl=us",
+        "raw_html_file": "https://serpapi.com/searches/4fa6782600abd916/65b94042d5b1c5e2b8409201.html",
+        "prettify_html_file": "https://serpapi.com/searches/4fa6782600abd916/65b94042d5b1c5e2b8409201.prettify",
+        "total_time_taken": 0.83
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "hl": "id",
+        "gl": "us",
+        "type": "2",
+        "departure_id": "SUB",
+        "arrival_id": "CGK",
+        "outbound_date": "2024-01-31"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 11:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 12:50"
+                    },
+                    "duration": 90,
+                    "airplane": "Boeing 737",
+                    "airline": "Lion",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JT.png",
+                    "travel_class": "Economy",
+                    "flight_number": "JT 697",
+                    "legroom": "74 cm",
+                    "extensions": [
+                        "Below average legroom (74 cm)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 59 kg"
+                    ]
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "this_flight": 59000,
+                "typical_for_this_route": 68000,
+                "difference_percent": -13
+            },
+            "price": 64,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JT.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZLVkRZNU54b0tDTmd4RUFJYUExVlRSRGdjY05neCIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiSlQiLCI2OTciXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 11:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 12:45"
+                    },
+                    "duration": 90,
+                    "airplane": "Boeing 737",
+                    "airline": "Batik Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ID.png",
+                    "travel_class": "Economy",
+                    "flight_number": "ID 6593",
+                    "legroom": "81 cm",
+                    "extensions": [
+                        "Above average legroom (81 cm)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 9
+            },
+            "price": 70,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ID.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1pKUkRZMU9UTWFDZ2ljTmhBQ0dnTlZVMFE0SEhDY05nPT0iLFtbIlNVQiIsIjIwMjQtMDEtMzEiLCJDR0siLG51bGwsIklEIiwiNjU5MyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 14:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 15:40"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320",
+                    "airline": "Citilink Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QG.png",
+                    "travel_class": "Economy",
+                    "flight_number": "QG 717",
+                    "legroom": "71 cm",
+                    "extensions": [
+                        "Below average legroom (71 cm)",
+                        "Carbon emissions estimate: 64 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 65000,
+                "typical_for_this_route": 68000,
+                "difference_percent": -4
+            },
+            "price": 71,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QG.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZSUnpjeE54b0tDSlkzRUFJYUExVlRSRGdjY0pZMyIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiUUciLCI3MTciXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 11:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 12:50"
+                    },
+                    "duration": 90,
+                    "airline": "Thai Lion Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SL 697"
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "typical_for_this_route": 68000
+            },
+            "price": 73,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZUVERZNU54b0tDT3c0RUFJYUExVlRSRGdjY093NCIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiU0wiLCI2OTciXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 11:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 13:10"
+                    },
+                    "duration": 95,
+                    "airplane": "Boeing 737",
+                    "airline": "Garuda Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "GA 327",
+                    "legroom": "79 cm",
+                    "extensions": [
+                        "Average legroom (79 cm)",
+                        "On-demand video",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 9
+            },
+            "price": 99,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZIUVRNeU54b0tDTTFNRUFJYUExVlRSRGdjY00xTSIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiR0EiLCIzMjciXV1d"
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 07:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 09:25"
+                    },
+                    "duration": 90,
+                    "airplane": "Boeing 737",
+                    "airline": "Lion",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JT.png",
+                    "travel_class": "Economy",
+                    "flight_number": "JT 693",
+                    "legroom": "74 cm",
+                    "extensions": [
+                        "Below average legroom (74 cm)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 65 kg"
+                    ]
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "this_flight": 66000,
+                "typical_for_this_route": 68000,
+                "difference_percent": -3
+            },
+            "price": 61,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JT.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZLVkRZNU14b0tDUGt1RUFJYUExVlRSRGdjY1BrdSIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiSlQiLCI2OTMiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 07:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 09:25"
+                    },
+                    "duration": 90,
+                    "airline": "Thai Lion Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SL 693"
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "typical_for_this_route": 68000
+            },
+            "price": 69,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZUVERZNU14b0tDTXMxRUFJYUExVlRSRGdjY01zMSIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiU0wiLCI2OTMiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 09:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 10:45"
+                    },
+                    "duration": 90,
+                    "airplane": "Boeing 737",
+                    "airline": "Batik Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ID.png",
+                    "travel_class": "Economy",
+                    "flight_number": "ID 6581",
+                    "legroom": "81 cm",
+                    "extensions": [
+                        "Above average legroom (81 cm)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 9
+            },
+            "price": 70,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ID.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1pKUkRZMU9ERWFDZ2ljTmhBQ0dnTlZVMFE0SEhDY05nPT0iLFtbIlNVQiIsIjIwMjQtMDEtMzEiLCJDR0siLG51bGwsIklEIiwiNjU4MSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 13:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 14:50"
+                    },
+                    "duration": 95,
+                    "airplane": "Boeing 737",
+                    "airline": "Batik Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ID.png",
+                    "travel_class": "Economy",
+                    "flight_number": "ID 6595",
+                    "legroom": "81 cm",
+                    "extensions": [
+                        "Above average legroom (81 cm)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 9
+            },
+            "price": 70,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ID.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1pKUkRZMU9UVWFDZ2ljTmhBQ0dnTlZVMFE0SEhDY05nPT0iLFtbIlNVQiIsIjIwMjQtMDEtMzEiLCJDR0siLG51bGwsIklEIiwiNjU5NSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 14:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 16:25"
+                    },
+                    "duration": 95,
+                    "airplane": "Boeing 737",
+                    "airline": "Lion",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JT.png",
+                    "travel_class": "Economy",
+                    "flight_number": "JT 749",
+                    "legroom": "74 cm",
+                    "extensions": [
+                        "Below average legroom (74 cm)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 59 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 59000,
+                "typical_for_this_route": 68000,
+                "difference_percent": -13
+            },
+            "price": 71,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JT.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZLVkRjME9Sb0tDSTgzRUFJYUExVlRSRGdjY0k4MyIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiSlQiLCI3NDkiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 09:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 11:10"
+                    },
+                    "duration": 100,
+                    "airplane": "Airbus A320",
+                    "airline": "Citilink Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QG.png",
+                    "travel_class": "Economy",
+                    "flight_number": "QG 715"
+                }
+            ],
+            "total_duration": 100,
+            "carbon_emissions": {
+                "typical_for_this_route": 68000
+            },
+            "price": 75,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QG.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZSUnpjeE5Sb0tDTzQ1RUFJYUExVlRSRGdjY080NSIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiUUciLCI3MTUiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 05:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-02-01 00:00"
+                    },
+                    "duration": 1105,
+                    "airplane": "Airbus A320",
+                    "airline": "Citilink Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QG.png",
+                    "travel_class": "Economy",
+                    "flight_number": "QG 725",
+                    "legroom": "71 cm",
+                    "extensions": [
+                        "Below average legroom (71 cm)",
+                        "Carbon emissions estimate: 64 kg"
+                    ]
+                }
+            ],
+            "total_duration": 1105,
+            "carbon_emissions": {
+                "this_flight": 65000,
+                "typical_for_this_route": 68000,
+                "difference_percent": -4
+            },
+            "price": 78,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QG.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZSUnpjeU5Sb0tDTTA4RUFJYUExVlRSRGdjY00wOCIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiUUciLCI3MjUiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 08:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 09:40"
+                    },
+                    "duration": 90,
+                    "airplane": "Airbus A320",
+                    "airline": "Citilink Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QG.png",
+                    "travel_class": "Economy",
+                    "flight_number": "QG 713",
+                    "legroom": "71 cm",
+                    "extensions": [
+                        "Below average legroom (71 cm)",
+                        "Carbon emissions estimate: 64 kg"
+                    ]
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "this_flight": 65000,
+                "typical_for_this_route": 68000,
+                "difference_percent": -4
+            },
+            "price": 78,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QG.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZSUnpjeE14b0tDTTA4RUFJYUExVlRSRGdjY00wOCIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiUUciLCI3MTMiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 19:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 21:10"
+                    },
+                    "duration": 90,
+                    "airplane": "Airbus A320",
+                    "airline": "Citilink Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QG.png",
+                    "travel_class": "Economy",
+                    "flight_number": "QG 719",
+                    "legroom": "71 cm",
+                    "extensions": [
+                        "Below average legroom (71 cm)",
+                        "Carbon emissions estimate: 64 kg"
+                    ]
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "this_flight": 65000,
+                "typical_for_this_route": 68000,
+                "difference_percent": -4
+            },
+            "price": 78,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QG.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZSUnpjeE9Sb0tDTTA4RUFJYUExVlRSRGdjY00wOCIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiUUciLCI3MTkiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 06:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 07:30"
+                    },
+                    "duration": 90,
+                    "airplane": "Boeing 737",
+                    "airline": "Batik Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ID.png",
+                    "travel_class": "Economy",
+                    "flight_number": "ID 6577",
+                    "legroom": "81 cm",
+                    "extensions": [
+                        "Above average legroom (81 cm)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 9
+            },
+            "price": 78,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ID.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1pKUkRZMU56Y2FDZ2pSUEJBQ0dnTlZVMFE0SEhEUlBBPT0iLFtbIlNVQiIsIjIwMjQtMDEtMzEiLCJDR0siLG51bGwsIklEIiwiNjU3NyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 16:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 17:45"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320",
+                    "airline": "Batik Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ID.png",
+                    "travel_class": "Economy",
+                    "flight_number": "ID 6587",
+                    "legroom": "81 cm",
+                    "extensions": [
+                        "Above average legroom (81 cm)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 69 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 70000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 3
+            },
+            "price": 78,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ID.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1pKUkRZMU9EY2FDZ2pSUEJBQ0dnTlZVMFE0SEhEUlBBPT0iLFtbIlNVQiIsIjIwMjQtMDEtMzEiLCJDR0siLG51bGwsIklEIiwiNjU4NyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 09:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 10:45"
+                    },
+                    "duration": 90,
+                    "airline": "Thai Lion Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SL 6581"
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "typical_for_this_route": 68000
+            },
+            "price": 80,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1pUVERZMU9ERWFDZ2lHUGhBQ0dnTlZVMFE0SEhDR1BnPT0iLFtbIlNVQiIsIjIwMjQtMDEtMzEiLCJDR0siLG51bGwsIlNMIiwiNjU4MSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 11:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 12:45"
+                    },
+                    "duration": 90,
+                    "airline": "Thai Lion Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SL 6593"
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "typical_for_this_route": 68000
+            },
+            "price": 80,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1pUVERZMU9UTWFDZ2lHUGhBQ0dnTlZVMFE0SEhDR1BnPT0iLFtbIlNVQiIsIjIwMjQtMDEtMzEiLCJDR0siLG51bGwsIlNMIiwiNjU5MyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 13:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 14:50"
+                    },
+                    "duration": 95,
+                    "airline": "Thai Lion Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SL 6595"
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "typical_for_this_route": 68000
+            },
+            "price": 80,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1pUVERZMU9UVWFDZ2lHUGhBQ0dnTlZVMFE0SEhDR1BnPT0iLFtbIlNVQiIsIjIwMjQtMDEtMzEiLCJDR0siLG51bGwsIlNMIiwiNjU5NSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 14:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 16:25"
+                    },
+                    "duration": 95,
+                    "airline": "Thai Lion Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SL 749"
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "typical_for_this_route": 68000
+            },
+            "price": 82,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZUVERjME9Sb0tDS2cvRUFJYUExVlRSRGdjY0tnLyIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiU0wiLCI3NDkiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 19:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 21:30"
+                    },
+                    "duration": 95,
+                    "airplane": "Boeing 737",
+                    "airline": "Garuda Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "GA 313",
+                    "legroom": "79 cm",
+                    "extensions": [
+                        "Average legroom (79 cm)",
+                        "On-demand video",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 9
+            },
+            "price": 84,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZIUVRNeE14b0tDTHRCRUFJYUExVlRSRGdjY0x0QiIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiR0EiLCIzMTMiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 20:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 21:45"
+                    },
+                    "duration": 100,
+                    "airplane": "Boeing 737",
+                    "airline": "Garuda Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "GA 319",
+                    "legroom": "79 cm",
+                    "extensions": [
+                        "Average legroom (79 cm)",
+                        "On-demand video",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 100,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 9
+            },
+            "price": 84,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZIUVRNeE9Sb0tDTHRCRUFJYUExVlRSRGdjY0x0QiIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiR0EiLCIzMTkiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 06:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 07:30"
+                    },
+                    "duration": 90,
+                    "airline": "Thai Lion Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SL 6577"
+                }
+            ],
+            "total_duration": 90,
+            "carbon_emissions": {
+                "typical_for_this_route": 68000
+            },
+            "price": 90,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1pUVERZMU56Y2FDZ2piUlJBQ0dnTlZVMFE0SEhEYlJRPT0iLFtbIlNVQiIsIjIwMjQtMDEtMzEiLCJDR0siLG51bGwsIlNMIiwiNjU3NyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 16:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 17:45"
+                    },
+                    "duration": 95,
+                    "airline": "Thai Lion Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SL 6587"
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "typical_for_this_route": 68000
+            },
+            "price": 90,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SL.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1pUVERZMU9EY2FDZ2piUlJBQ0dnTlZVMFE0SEhEYlJRPT0iLFtbIlNVQiIsIjIwMjQtMDEtMzEiLCJDR0siLG51bGwsIlNMIiwiNjU4NyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 09:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 11:05"
+                    },
+                    "duration": 95,
+                    "airplane": "Boeing 737",
+                    "airline": "Garuda Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "GA 311",
+                    "legroom": "79 cm",
+                    "extensions": [
+                        "Average legroom (79 cm)",
+                        "On-demand video",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 9
+            },
+            "price": 99,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZIUVRNeE1Sb0tDTTFNRUFJYUExVlRSRGdjY00xTSIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiR0EiLCIzMTEiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 16:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 18:10"
+                    },
+                    "duration": 100,
+                    "airplane": "Boeing 737",
+                    "airline": "Garuda Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "GA 315",
+                    "legroom": "79 cm",
+                    "extensions": [
+                        "Average legroom (79 cm)",
+                        "On-demand video",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 100,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 9
+            },
+            "price": 99,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZIUVRNeE5Sb0tDTTFNRUFJYUExVlRSRGdjY00xTSIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiR0EiLCIzMTUiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 18:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 20:15"
+                    },
+                    "duration": 95,
+                    "airplane": "Boeing 737",
+                    "airline": "Garuda Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "GA 325",
+                    "legroom": "81 cm",
+                    "extensions": [
+                        "Above average legroom (81 cm)",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 73 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 73000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 7
+            },
+            "price": 99,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZIUVRNeU5Sb0tDTTFNRUFJYUExVlRSRGdjY00xTSIsW1siU1VCIiwiMjAyNC0wMS0zMSIsIkNHSyIsbnVsbCwiR0EiLCIzMjUiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Bandar Udara Internasional Juanda (SUB)",
+                        "id": "SUB",
+                        "time": "2024-01-31 07:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Bandar Udara Internasional Soekarno–Hatta (CGK)",
+                        "id": "CGK",
+                        "time": "2024-01-31 08:40"
+                    },
+                    "duration": 95,
+                    "airplane": "Boeing 737",
+                    "airline": "Garuda Indonesia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "GA 305",
+                    "extensions": [
+                        "Extra reclining seat",
+                        "In-seat power outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 111 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 111000,
+                "typical_for_this_route": 68000,
+                "difference_percent": 63
+            },
+            "price": 430,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GA.png",
+            "booking_token": "WyJDalJJU1RsTVNrMVpiamh2YlZsQlJXWkVOSGRDUnkwdExTMHRMUzB0TFMxd1ptSm9ORUZCUVVGQlIxYzFVVVZOUmxOYWRIZEJFZ1ZIUVRNd05Sb0xDS25QQWhBQ0dnTlZVMFE0SEhDcHp3ST0iLFtbIlNVQiIsIjIwMjQtMDEtMzEiLCJDR0siLG51bGwsIkdBIiwiMzA1Il1dXQ=="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 61,
+        "price_level": "typical",
+        "typical_price_range": [
+            60,
+            70
+        ],
+        "price_history": [
+            [
+                1701450000,
+                69
+            ],
+            [
+                1701536400,
+                69
+            ],
+            [
+                1701622800,
+                69
+            ],
+            [
+                1701709200,
+                69
+            ],
+            [
+                1701795600,
+                69
+            ],
+            [
+                1701882000,
+                69
+            ],
+            [
+                1701968400,
+                69
+            ],
+            [
+                1702054800,
+                69
+            ],
+            [
+                1702141200,
+                69
+            ],
+            [
+                1702227600,
+                69
+            ],
+            [
+                1702314000,
+                69
+            ],
+            [
+                1702400400,
+                68
+            ],
+            [
+                1702486800,
+                69
+            ],
+            [
+                1702573200,
+                69
+            ],
+            [
+                1702659600,
+                69
+            ],
+            [
+                1702746000,
+                69
+            ],
+            [
+                1702832400,
+                69
+            ],
+            [
+                1702918800,
+                69
+            ],
+            [
+                1703005200,
+                69
+            ],
+            [
+                1703091600,
+                69
+            ],
+            [
+                1703178000,
+                68
+            ],
+            [
+                1703264400,
+                69
+            ],
+            [
+                1703350800,
+                69
+            ],
+            [
+                1703437200,
+                69
+            ],
+            [
+                1703523600,
+                69
+            ],
+            [
+                1703610000,
+                69
+            ],
+            [
+                1703696400,
+                69
+            ],
+            [
+                1703782800,
+                66
+            ],
+            [
+                1703869200,
+                65
+            ],
+            [
+                1703955600,
+                66
+            ],
+            [
+                1704042000,
+                66
+            ],
+            [
+                1704128400,
+                66
+            ],
+            [
+                1704214800,
+                66
+            ],
+            [
+                1704301200,
+                58
+            ],
+            [
+                1704387600,
+                58
+            ],
+            [
+                1704474000,
+                58
+            ],
+            [
+                1704560400,
+                58
+            ],
+            [
+                1704646800,
+                58
+            ],
+            [
+                1704733200,
+                58
+            ],
+            [
+                1704819600,
+                58
+            ],
+            [
+                1704906000,
+                58
+            ],
+            [
+                1704992400,
+                58
+            ],
+            [
+                1705078800,
+                58
+            ],
+            [
+                1705165200,
+                58
+            ],
+            [
+                1705251600,
+                58
+            ],
+            [
+                1705338000,
+                58
+            ],
+            [
+                1705424400,
+                58
+            ],
+            [
+                1705510800,
+                58
+            ],
+            [
+                1705597200,
+                58
+            ],
+            [
+                1705683600,
+                58
+            ],
+            [
+                1705770000,
+                58
+            ],
+            [
+                1705856400,
+                54
+            ],
+            [
+                1705942800,
+                57
+            ],
+            [
+                1706029200,
+                57
+            ],
+            [
+                1706115600,
+                46
+            ],
+            [
+                1706202000,
+                57
+            ],
+            [
+                1706288400,
+                57
+            ],
+            [
+                1706374800,
+                54
+            ],
+            [
+                1706461200,
+                54
+            ],
+            [
+                1706547600,
+                54
+            ],
+            [
+                1706634000,
+                61
+            ]
+        ]
+    }
+}

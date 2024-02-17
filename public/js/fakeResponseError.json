@@ -1,0 +1,26 @@
+{
+    "search_metadata": {
+        "id": "65ba9065f26ac606b276f3ce",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/4fa6782600abd916/65ba9065f26ac606b276f3ce.json",
+        "created_at": "2024-01-31 18:24:37 UTC",
+        "processed_at": "2024-01-31 18:24:37 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=id&gl=us",
+        "raw_html_file": "https://serpapi.com/searches/4fa6782600abd916/65ba9065f26ac606b276f3ce.html",
+        "prettify_html_file": "https://serpapi.com/searches/4fa6782600abd916/65ba9065f26ac606b276f3ce.prettify",
+        "total_time_taken": 1.51
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "hl": "id",
+        "gl": "us",
+        "type": "2",
+        "departure_id": "SUB",
+        "arrival_id": "CGK",
+        "outbound_date": "2024-01-31"
+    },
+    "search_information": {
+        "flights_results_state": "Fully empty"
+    },
+    "error": "Google Flights hasn't returned any results for this query."
+}
