@@ -11,7 +11,7 @@ class CreateGaleriRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return $this->user() !== null;
     }
 
     /**
@@ -22,7 +22,7 @@ class CreateGaleriRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'image' => 'required|image|mimes:png,jpg,jpeg|max:2048',
+            'image' => 'required',
             'title' => 'required'
         ];
     }

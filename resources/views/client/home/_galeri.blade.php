@@ -4,11 +4,12 @@
         <div id="image-slider" class="splide bg-gray-900">
             <div class="splide__track">
                 <ul class="splide__list">
-                    @for ($i = 1; $i <= 4; $i++)
+                    @foreach ($galeri as $key => $item)
                         <li class="splide__slide aspect-video overflow-hidden">
-                            <img src="{{ asset('bgImage/bg' . $i . '.jpg') }}" alt="" class="w-full h-full object-contain">
+                            <img src="{{ asset('galeri/' . $item->image) }}" alt=""
+                                class="w-full h-full object-contain">
                         </li>
-                    @endfor
+                    @endforeach
                 </ul>
             </div>
         </div>
@@ -16,11 +17,11 @@
         <div id="thumbnail-carousel" class="splide pt-4">
             <div class="splide__track">
                 <ul class="splide__list pb-4">
-                    @for ($i = 1; $i <= 4; $i++)
+                    @foreach ($galeri as $key => $item)
                         <li class="splide__slide">
-                            <img src="{{ asset('bgImage/bg' . $i . '.jpg') }}" alt="">
+                            <img src="{{ asset('galeri/' . $item->image) }}" alt="">
                         </li>
-                    @endfor
+                    @endforeach
                 </ul>
             </div>
         </div>

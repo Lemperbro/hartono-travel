@@ -2,7 +2,7 @@
     <div class="px-4 md:px-0">
         <div
             class="md:container flex flex-wrap items-center justify-between mx-auto p-4 bg-white/40 backdrop-blur-md  border-gray-200 dark:bg-gray-900 dark:border-gray-700 rounded-2xl">
-            <a href="/login" class="flex items-center">
+            <a href="{{ auth()->user() !== null ? '/admin' : '/login' }}" class="flex items-center">
                 <img src="{{ asset('icon/lamongan.png') }}" class="w-14 h-14 object-contain mr-3" />
                 <h1></h1>
             </a>

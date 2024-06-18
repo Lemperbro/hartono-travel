@@ -1,13 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Request;
 use App\Http\Controllers\PesawatController;
 use App\Http\Controllers\Home\HomeController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Admin\BannerController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\Galeri\GaleriController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\PenjualanController;
+use App\Http\Controllers\FilePondController;
 use App\Http\Controllers\tiket_kapal\KapalController;
 
 /*
@@ -23,8 +26,13 @@ use App\Http\Controllers\tiket_kapal\KapalController;
 
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/testing', function(){
+
+})->name('test');
 Route::post('/search-jadwal-pesawat', [PesawatController::class, 'cariJadwal'])->name('cari-jadwal-pesawat');
-Route::get('/tiket/kapal', [KapalController::class, 'detail'])->name('kapal.detail');
+Route::get('/pesawat/redirect', [PesawatController::class, 'redirecToWa'])->name('cari-jadwal-pesawat.redirect');
+Route::get('/tiket/kapal/{id:slug}', [KapalController::class, 'detail'])->name('kapal.detail');
+Route::get('/tiket/kapal/redirect/{id:slug}', [KapalController::class, 'redirecToWa'])->name('kapal.redirect');
 
 route::middleware(['guest'])->group(function () {
     Route::get('/register', [RegisterController::class, 'index'])->name('register');
@@ -52,6 +60,23 @@ route::middleware(['auth'])->group(function () {
     Route::post('/manage-banner/{id}/edit', [BannerController::class, 'update'])->name('banner.update');
 
     Route::get('/kelola-tiket-kapal', [KapalController::class, 'adminIndex'])->name('kapal.admin');
+    Route::get('/kelola-tiket-kapal/create', [KapalController::class, 'create'])->name('kapal.create');
+    Route::post('/kelola-tiket-kapal/create', [KapalController::class, 'postCreate'])->name('kapal.create.post');
+
+    Route::get('/kelola-tiket-kapal/edit/{id:slug}',[KapalController::class, 'edit'])->name('kapal.edit');
+    Route::post('/kelola-tiket-kapal/edit/{id:slug}',[KapalController::class, 'update'])->name('kapal.update');
+
+    Route::post('/status-expired/set/{id:slug}', [KapalController::class ,'toTiketHabis'])->name('kapal.set.expired');
+    Route::post('/detele/tiket-kapal/{id:slug}', [KapalController::class, 'delete'])->name('kapal.delete');
+
+    Route::get('/manage-galeri', [GaleriController::class, 'adminIndex'])->name('galeri.admin');
+    Route::get('/manage-galeri/create', [GaleriController::class, 'create'])->name('galeri.admin.create');
+    Route::post('/manage-galeri/create', [GaleriController::class, 'store'])->name('galeri.admin.store');
+    Route::get('/manage-galeri/update/{id}', [GaleriController::class, 'edit'])->name('galeri.admin.edit');
+    Route::post('/manage-galeri/update/{id}', [GaleriController::class, 'update'])->name('galeri.admin.update');
+
+    Route::post('/filePond/post/create/{folder}', [FilePondController::class, 'postImage'])->name('filePond.post');
+    Route::post('/filePond/delete/{folder}', [FilePondController::class, 'deleteImage'])->name('filePond.delete');
 });
 
 

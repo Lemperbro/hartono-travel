@@ -6,7 +6,7 @@
                 <div class="absolute top-[50%] -translate-y-[50%] md:w-[70%] xl:w-[50%]">
                     <div class="px-4">
                         <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white">
-                            Lorem ipsum
+                            Hartono Travel
                         </h1>
                         <p class="text-lg md:text-xl font-medium text-gray-300 mt-4">Lorem ipsum dolor sit amet
                             consectetur, adipisicing elit. Asperiores repudiandae ut exercitationem saepe labore quod

@@ -22,7 +22,6 @@ class PenjualanController extends Controller
     {
         $this->PenjualanInterface = $PenjualanInterface;
         $this->export = new ExportController();
-
     }
 
     public function index()

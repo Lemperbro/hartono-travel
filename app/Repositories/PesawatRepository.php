@@ -43,7 +43,7 @@ class PesawatRepository implements PesawatInterface
                 ]);
             }
             return response()->json([
-                'data' => $this->fakeResponseError(),
+                'data' => $this->fakeResponse(),
             ]);
             // return response()->json(Carbon::parse($data->dateStart)->format('Y-m-d'));
             $get = Http::get($this->api_url . 'search.json', [

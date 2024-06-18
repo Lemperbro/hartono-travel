@@ -12,13 +12,13 @@
             <div class="md:container px-4">
                 @include('client.home._cardSearchPesawat')
             </div>
-            <div class="md:container px-4">
+            <div class="md:container px-4 mt-10">
                 @include('client.home._splide')
             </div>
         </div>
-        <div class="md:container px-4 pt-4">
+        {{-- <div class="md:container px-4 pt-4">
             @include('client.home._CaraPesan')
-        </div>
+        </div> --}}
         <div class="md:container px-4">
             <div class="relative pt-10 pb-20">
                 @include('client.home._gridTicketKapal')

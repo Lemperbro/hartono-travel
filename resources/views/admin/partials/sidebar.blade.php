@@ -28,11 +28,8 @@
                 <a href="{{ route('penjualan') }}"
                     class="flex items-center p-2 text-gray-400 rounded-lg group {{ request()->routeIs('penjualan') || request()->routeIs('penjualan.*') ? 'bg-SidebarActive' : '' }}
                     ">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-                        class="flex-shrink-0 w-5 h-5 fill-gray-400 transition duration-75"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                        <path
-                            d="M224 256A128 128 0 1 1 224 0a128 128 0 1 1 0 256zM209.1 359.2l-18.6-31c-6.4-10.7 1.3-24.2 13.7-24.2H224h19.7c12.4 0 20.1 13.6 13.7 24.2l-18.6 31 33.4 123.9 36-146.9c2-8.1 9.8-13.4 17.9-11.3c70.1 17.6 121.9 81 121.9 156.4c0 17-13.8 30.7-30.7 30.7H285.5c-2.1 0-4-.4-5.8-1.1l.3 1.1H168l.3-1.1c-1.8 .7-3.8 1.1-5.8 1.1H30.7C13.8 512 0 498.2 0 481.3c0-75.5 51.9-138.9 121.9-156.4c8.1-2 15.9 3.3 17.9 11.3l36 146.9 33.4-123.9z" />
-                    </svg>
+                    <i class="ri-database-2-fill fill-gray-400 text-xl"></i>
+
                     <span class="ml-3 font-semibold">Data Transaksi</span>
                 </a>
             </li>
@@ -40,42 +37,32 @@
                 <a href="{{ route('banner') }}"
                     class="flex items-center p-2 text-gray-400 rounded-lg group {{ request()->routeIs('banner') || request()->routeIs('banner.*') ? 'bg-SidebarActive' : '' }}
                     ">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-                        class="flex-shrink-0 w-5 h-5 fill-gray-400 transition duration-75"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                        <path
-                            d="M224 256A128 128 0 1 1 224 0a128 128 0 1 1 0 256zM209.1 359.2l-18.6-31c-6.4-10.7 1.3-24.2 13.7-24.2H224h19.7c12.4 0 20.1 13.6 13.7 24.2l-18.6 31 33.4 123.9 36-146.9c2-8.1 9.8-13.4 17.9-11.3c70.1 17.6 121.9 81 121.9 156.4c0 17-13.8 30.7-30.7 30.7H285.5c-2.1 0-4-.4-5.8-1.1l.3 1.1H168l.3-1.1c-1.8 .7-3.8 1.1-5.8 1.1H30.7C13.8 512 0 498.2 0 481.3c0-75.5 51.9-138.9 121.9-156.4c8.1-2 15.9 3.3 17.9 11.3l36 146.9 33.4-123.9z" />
-                    </svg>
+                    <i class="ri-image-fill fill-gray-400 text-xl"></i>
                     <span class="ml-3 font-semibold">Manage Banner</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('kapal.admin') }}" class="flex items-center p-2 text-gray-400 rounded-lg group">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-                        class="flex-shrink-0 w-5 h-5 fill-gray-400 transition duration-75"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                        <path
-                            d="M224 256A128 128 0 1 1 224 0a128 128 0 1 1 0 256zM209.1 359.2l-18.6-31c-6.4-10.7 1.3-24.2 13.7-24.2H224h19.7c12.4 0 20.1 13.6 13.7 24.2l-18.6 31 33.4 123.9 36-146.9c2-8.1 9.8-13.4 17.9-11.3c70.1 17.6 121.9 81 121.9 156.4c0 17-13.8 30.7-30.7 30.7H285.5c-2.1 0-4-.4-5.8-1.1l.3 1.1H168l.3-1.1c-1.8 .7-3.8 1.1-5.8 1.1H30.7C13.8 512 0 498.2 0 481.3c0-75.5 51.9-138.9 121.9-156.4c8.1-2 15.9 3.3 17.9 11.3l36 146.9 33.4-123.9z" />
-                    </svg>
+                <a href="{{ route('kapal.admin') }}"
+                    class="flex items-center p-2 text-gray-400 rounded-lg group {{ request()->routeIs('kapal.admin') || request()->routeIs('kapal.*') ? 'bg-SidebarActive' : '' }}">
+                    <i class="ri-sailboat-fill fill-gray-400 text-xl"></i>
                     <span class="ml-3 font-semibold">Manage Tiket Kapal</span>
                 </a>
             </li>
             <li>
                 <a href="/admin" class="flex items-center p-2 text-gray-400 rounded-lg group">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-                        class="flex-shrink-0 w-5 h-5 fill-gray-400 transition duration-75"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                        <path
-                            d="M224 256A128 128 0 1 1 224 0a128 128 0 1 1 0 256zM209.1 359.2l-18.6-31c-6.4-10.7 1.3-24.2 13.7-24.2H224h19.7c12.4 0 20.1 13.6 13.7 24.2l-18.6 31 33.4 123.9 36-146.9c2-8.1 9.8-13.4 17.9-11.3c70.1 17.6 121.9 81 121.9 156.4c0 17-13.8 30.7-30.7 30.7H285.5c-2.1 0-4-.4-5.8-1.1l.3 1.1H168l.3-1.1c-1.8 .7-3.8 1.1-5.8 1.1H30.7C13.8 512 0 498.2 0 481.3c0-75.5 51.9-138.9 121.9-156.4c8.1-2 15.9 3.3 17.9 11.3l36 146.9 33.4-123.9z" />
-                    </svg>
-                    <span class="ml-3 font-semibold">Partners</span>
+                    <i class="ri-calendar-event-fill fill-gray-400 text-xl"></i>
+                    <span class="ml-3 font-semibold">Manage Promo</span>
                 </a>
             </li>
             <li>
-                <a href="/admin" class="flex items-center p-2 text-gray-400 rounded-lg group">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-                        class="flex-shrink-0 w-5 h-5 fill-gray-400 transition duration-75"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                        <path
-                            d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z" />
-                    </svg>
-                    <span class="ml-3 font-semibold">Manage Promo</span>
+                <a href="{{ route('galeri.admin') }}" class="flex items-center p-2 text-gray-400 rounded-lg group">
+                    <i class="ri-gallery-view fill-gray-400 text-xl"></i>
+                    <span class="ml-3 font-semibold">Manage Galeri</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('home') }}" class="flex items-center justify-center p-2 text-gray-400 rounded-lg group bg-SidebarActive">
+                    <span class="text-center font-semibold">Lihat Halaman Client</span>
                 </a>
             </li>
         </ul>
@@ -92,16 +79,16 @@
                 <span class="ml-3 font-semibold">Logout</span>
 
             </a>
-            <div class="max-h-[50px] h-full w-full border-t-[1px] border-main2 flex gap-x-3 pt-2">
+            <a href="" class="max-h-[50px] h-full w-full border-t-[1px] border-main2 flex gap-x-3 pt-2">
                 <div class="w-10 h-10 rounded-full overflow-hidden">
                     <img src="{{ asset('DefaultImage/user_image.jpg') }}" alt=""
                         class="object-center object-cover w-14 h-14  rounded-full my-auto">
                 </div>
                 <div class="my-auto">
-                    <h1 class="text-lg text-white">Hartono Travel</h1>
+                    <h1 class="text-lg text-white capitalize">{{ auth()->user()->name }}</h1>
                     <h1 class="text-sm text-gray-300">Admin</h1>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </aside>

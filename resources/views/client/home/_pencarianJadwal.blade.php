@@ -305,6 +305,17 @@
             }
 
             function card(item, collapseTarget) {
+                // Buat salinan dari item.flights[0]
+                const data = { ...item.flights[0] };
+
+                // Convert nested objects to JSON strings
+                data.departure_airport = JSON.stringify(data.departure_airport);
+                data.arrival_airport = JSON.stringify(data.arrival_airport);
+
+                // Convert data object to query string
+                const queryString = new URLSearchParams(data).toString();
+
+                // Create card with the href attribute set with the query string
                 var card = `<div class="relative mb-3 bg-white rounded-xl" id="card_flights">
                     <h6 class="mb-0">
                         <button
@@ -315,13 +326,13 @@
                                     <img src="${item.airline_logo}" alt=""
                                         class="w-12 h-12 object-contain">
                                     <div>
-                                        <h1 class="text-xl font-semibold">${item.flights[0].airplane||item.flights[0].airline}</h1>
+                                        <h1 class="text-xl font-semibold">${item.flights[0].airplane || item.flights[0].airline}</h1>
                                         <h3 class="font-normal">${item.flights[0].airline}</h3>
                                         <h3 class="font-normal">${formatDateToIndonesian(item.flights[0].departure_airport.time)}</h3>
                                         <h3 class="font-semibold">${convertDateFormat24Hours(item.flights[0].departure_airport.time)}</h3>
                                     </div>
                                 </div>
-                                <a href=""
+                                <a href="/pesawat/redirect?${queryString}" target="_blank"
                                     class="inline-block mr-10 bg-orange-600 py-2 px-3 rounded-lg text-white ml-auto">Pesan
                                     Sekarang</a>
                             </div>
@@ -330,7 +341,6 @@
                         </button>
                     </h6>
                     <div data-collapse="${collapseTarget}" class="h-0 overflow-hidden transition-all duration-300 ease-in-out">
-
                         <div class="p-4">
                             <div class="flex gap-4">
                                 <div class="relative min-h-1  border-r-2 border-dashed border-black my-1">
@@ -343,8 +353,7 @@
                                 </div>
                                 <div class="flex flex-col gap-2">
                                     <div>
-                                        <h1 class="text-lg font-semibold">${convertDateFormat24Hours(item.flights[0].departure_airport.time)} • ${item.flights[0].departure_airport.name}
-                                        </h1>
+                                        <h1 class="text-lg font-semibold">${convertDateFormat24Hours(item.flights[0].departure_airport.time)} • ${item.flights[0].departure_airport.name}</h1>
                                     </div>
                                     <div>
                                         <ul class="list-disc ml-5">
@@ -359,12 +368,12 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>`;
 
                 return card;
             }
+
 
             function htmlJadwalPesawatCard(data) {
                 if (data.best_flights !== null) {

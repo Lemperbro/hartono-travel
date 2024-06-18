@@ -23,7 +23,7 @@ return new class extends Migration
             $table->text('deskripsi')->nullable();
             $table->dateTime('expired');
             $table->integer('views')->default(0);
-            $table->enum('status', ['active','expired']);
+            $table->enum('status', ['active','expired'])->default('active');
             $table->timestamps();
         });
     }

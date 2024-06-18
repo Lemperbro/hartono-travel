@@ -13,7 +13,7 @@
                             </path>
                         </svg>
                     </button>
-                    <h1 class="font-semibold text-Sidebar my-auto text-xl">{{ $headerTitle ?? 'Data Transaksi' }}</h1>
+                    <h1 class="font-semibold text-Sidebar my-auto text-xl">{{ $headerTitle ?? 'Data Tiket Kapal' }}</h1>
                 </div>
 
             </div>

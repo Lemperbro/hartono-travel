@@ -1,18 +1,17 @@
-<h1 class="text-left font-semibold my-2 text-2xl text-gray-700">Promo</h1>
-<div class="splide pb-10 pt-5" id="promo">
+<h1 class="text-center font-semibold my-2 text-2xl text-gray-700 mb-5">Promo</h1>
+<div class="splide my-2" id="promo">
     <div class="splide__track">
         <ul class="splide__list gap-x-2">
             @for ($i = 1; $i <= 5; $i++)
                 <li class="splide__slide rounded-lg overflow-hidden  ">
-                    <div
+                    <a href=""
                         class="relative grid h-[18rem] md:h-[25rem] lg:h-[35rem] max-h-[35rem] w-full max-w-[30rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-transparent bg-clip-border text-center text-gray-700">
                         <div
                             class="absolute inset-0 m-0 h-full w-full overflow-hidden bg-transparent bg-cover bg-clip-border bg-center text-gray-700 shadow-none bg-black">
-                            <img src="{{ asset('bgImage/bg' . $i . '.jpg') }}" alt=""
+                            <img src="{{ asset('bgImage/bg5.jpg') }}" alt=""
                                 class="h-full w-full object-contain rounded-xl">
-                        </div>
-                        <a href="" class="bg-gray-900 p-1 text-xs md:text-base md:p-4 inline-block text-white rounded-lg absolute left-[50%] -translate-x-[50%] w-[70%] md:w-[90%] bottom-6 border border-white font-semibold">Book Now</a>   
-                    </div>
+                        </div> 
+                    </a>
                 </li>
             @endfor
         </ul>
