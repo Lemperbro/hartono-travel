@@ -50,20 +50,33 @@ class PesawatController extends Controller
         //     'extensions' => $extensions,
         // ]);
         $link = url('/');
-        $message = "Pemesanan Tiket Pesawat {$airline} {$airplane}, Mohon isi data yang kosong di bawah ini\n"
-        . "Nama: ,\n"
-        . "Alamat: ,\n"
-        . "Keberangkatan: {$departure_airport['name']},\n"
-        . "Tujuan: {$arrival_airport['name']},\n"
-        . "Waktu Keberangkatan: {$departure_airport['time']},\n"
-        . "Waktu Kedatangan: {$arrival_airport['time']},\n"
-        . "Kelas: {$travel_class},\n"
-        . "Nomor Penerbangan: {$flight_number},\n"
-        . "Jumlah Tiket: ,\n"
-        . "Link asal informasi tiket: {$link},\n"
+        $message = "✈️ *Pemesanan Tiket Pesawat*\n"
         . "\n"
-        . "{$extensions},"
-        ;
+        . "🛫 *Keberangkatan:*\n"
+        . "  - Bandara: {$departure_airport['name']}\n"
+        . "  - Waktu: {$departure_airport['time']}\n"
+        . "\n"
+        . "🛬 *Tujuan:*\n"
+        . "  - Bandara: {$arrival_airport['name']}\n"
+        . "  - Waktu: {$arrival_airport['time']}\n"
+        . "\n"
+        . "🚀 *Detail Penerbangan:*\n"
+        . "  - Maskapai: {$airline}\n"
+        . "  - Pesawat: {$airplane}\n"
+        . "  - Kelas: {$travel_class}\n"
+        . "  - Nomor Penerbangan: {$flight_number}\n"
+        . "\n"
+        . "📝 *Informasi Penumpang:*\n"
+        . "  - Nama: \n"
+        . "  - Alamat: \n"
+        . "  - Jumlah Tiket: \n"
+        . "\n"
+        . "🔗 *Link Asal Informasi Tiket:*\n"
+        . "  {$link}\n"
+        . "\n"
+        . "*Keterangan Tambahan:*\n"
+        . "{$extensions}";
+
 
         return redirectToWhatsApp($message);
     }

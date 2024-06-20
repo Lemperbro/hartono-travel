@@ -31,7 +31,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div  class="flex justify-center mt-10">
+                        <div class="flex justify-center mt-10">
                             <a href="{{ route('kapal.redirect', ['id' => $data->slug]) }}" target="_blank"
                                 class="inline-block w-auto bg-orange-600 px-4 py-2 rounded-lg font-semibold text-white">Pesan
                                 Sekarang</a>
@@ -50,7 +50,7 @@
                     <p class="text-justify text-gray-900">{{ $data->deskripsi }}</p>
                 </div>
             @endif
-            <div class="max-w-[1200px]  overflow-hidden mx-auto mt-10">
+            <div class="max-w-[1000px] max-h-[650px]  overflow-hidden mx-auto mt-10">
                 <img src="{{ asset('TiketKapalImage/' . $data->image) }}" alt="" class="w-full  object-contain">
             </div>
         </div>
@@ -64,6 +64,8 @@
                         <h1 class="text-Sidebar font-semibold mt-2">Tidak Kapal Lainnya Tidak Tersedia</h1>
                     </div>
                 @endif
+                {{ $tiketKapal->links('vendor.pagination.tailwind') }}
+
             </div>
         </div>
     </div>

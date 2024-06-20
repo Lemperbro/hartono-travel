@@ -25,13 +25,13 @@ class TiketKapalRepository implements TiketKapalInterface
         if (auth()->user() !== null) {
 
             if (request('filter') == 'best') {
-                $data = $this->model->where('status', 'active')->orderBy('views', 'desc')->paginate(15);
+                $data = $this->model->where('status', 'active')->orderBy('views', 'desc')->paginate($paginate);
             } else if (request('filter') == 'habis') {
                 $data = $this->getAllTiketHabis();
             }
 
             if (request('search')) {
-                $data = $this->model->where('title', 'like', '%' . request('search') . '%');
+                $data = $this->model->where('title', 'like', '%' . request('search') . '%')->paginate($paginate);
             }
         }
         return $data;

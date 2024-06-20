@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('kode_promo')->default(null);
             $table->text('image');
             $table->string('title');
+            $table->enum('status', ['aktif', 'expired'])->default('aktif');
+            $table->dateTime('expired');
             $table->timestamps();
         });
     }

@@ -80,6 +80,7 @@
                     <h1 class="text-Sidebar font-semibold mt-2">Tidak Ada Data Yang Ditemukan</h1>
                 </div>
                 @endif
+                {{-- @dd($data) --}}
                 {{ $data->appends($appendsPaginate)->links('vendor.pagination.tailwind') }}
 
             </div>

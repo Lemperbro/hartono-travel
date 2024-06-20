@@ -4,14 +4,14 @@ namespace App\Http\Requests\Promo;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class CreatePromoRequest extends FormRequest
+class PromoUpdateRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
      */
     public function authorize(): bool
     {
-        return false;
+        return $this->user() !== null;
     }
 
     /**
@@ -22,20 +22,18 @@ class CreatePromoRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'image' => 'required|image|mimes:png,jpg,jpeg|max:2048',
-            'title' => 'required'
+            'title' => 'required',
+            'image' => 'required',
+            'expired' => 'required|date',
         ];
     }
-
     public function messages()
-{
-    return [
-        'image.required' => 'Gambar wajib diunggah.',
-        'image.image' => 'File harus berupa gambar.',
-        'image.mimes' => 'Format gambar harus PNG, JPG, atau JPEG.',
-        'image.max' => 'Ukuran gambar tidak boleh melebihi 2MB.',
-        'title.required' => 'Judul wajib diisi.',
-    ];
-}
-
+    {
+        return [
+            'title.required' => 'Judul wajib diisi.',
+            'image.required' => 'Gambar wajib diunggah.',
+            'expired.required' => 'Waktu kedaluwarsa wajib diisi.',
+            'expired.date' => 'Format waktu kedaluwarsa tidak valid.',
+        ];
+    }
 }

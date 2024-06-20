@@ -42,9 +42,9 @@ class PesawatRepository implements PesawatInterface
                     'error' => 'Mohon Lengkapi Data'
                 ]);
             }
-            return response()->json([
-                'data' => $this->fakeResponse(),
-            ]);
+            // return response()->json([
+            //     'data' => $this->fakeResponse(),
+            // ]);
             // return response()->json(Carbon::parse($data->dateStart)->format('Y-m-d'));
             $get = Http::get($this->api_url . 'search.json', [
                 'engine' => 'google_flights', //required

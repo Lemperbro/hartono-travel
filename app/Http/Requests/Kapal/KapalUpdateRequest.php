@@ -24,6 +24,7 @@ class KapalUpdateRequest extends FormRequest
         return [
             'title' => 'required',
             'keberangkatan' => 'required',
+            'image' => 'required',
             'tujuan' => 'required',
             'waktu_keberangkatan' => 'required|date',
             'waktu_kedatangan' => 'required|date',
@@ -34,6 +35,7 @@ class KapalUpdateRequest extends FormRequest
     {
         return [
             'title.required' => 'Judul wajib diisi.',
+            'image.required' => 'Gambar wajib diunggah.',
             'keberangkatan.required' => 'Tempat keberangkatan wajib diisi.',
             'tujuan.required' => 'Tempat tujuan wajib diisi.',
             'waktu_keberangkatan.required' => 'Waktu keberangkatan wajib diisi.',

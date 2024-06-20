@@ -49,18 +49,18 @@
                 </a>
             </li>
             <li>
-                <a href="/admin" class="flex items-center p-2 text-gray-400 rounded-lg group">
+                <a href="{{ route('promo') }}" class="flex items-center p-2 text-gray-400 rounded-lg group {{ request()->routeIs('promo') || request()->routeIs('promo.*') ? 'bg-SidebarActive' : '' }}">
                     <i class="ri-calendar-event-fill fill-gray-400 text-xl"></i>
                     <span class="ml-3 font-semibold">Manage Promo</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('galeri.admin') }}" class="flex items-center p-2 text-gray-400 rounded-lg group">
+                <a href="{{ route('galeri.admin') }}" class="flex items-center p-2 text-gray-400 rounded-lg group {{ request()->routeIs('galeri.admin') || request()->routeIs('galeri.*') ? 'bg-SidebarActive' : '' }}">
                     <i class="ri-gallery-view fill-gray-400 text-xl"></i>
                     <span class="ml-3 font-semibold">Manage Galeri</span>
                 </a>
             </li>
-            <li>
+            <li class="pt-10">
                 <a href="{{ route('home') }}" class="flex items-center justify-center p-2 text-gray-400 rounded-lg group bg-SidebarActive">
                     <span class="text-center font-semibold">Lihat Halaman Client</span>
                 </a>

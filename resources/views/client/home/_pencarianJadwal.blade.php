@@ -305,6 +305,7 @@
             }
 
             function card(item, collapseTarget) {
+                console.log(item);
                 // Buat salinan dari item.flights[0]
                 const data = { ...item.flights[0] };
 

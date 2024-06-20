@@ -2,13 +2,14 @@
 
 namespace App\Http\Controllers\tiket_kapal;
 
+use Carbon\Carbon;
+use App\Models\Penjualan;
 use App\Models\TiketKapal;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Kapal\KapalCreateRequest;
 use App\Http\Requests\Kapal\KapalUpdateRequest;
 use App\Repositories\Interfaces\TiketKapalInterface;
-use Carbon\Carbon;
 
 class KapalController extends Controller
 {
@@ -37,15 +38,26 @@ class KapalController extends Controller
     }
     public function redirecToWa(TiketKapal $id){
         $link = route('kapal.detail', ['id' => $id->slug]);
-        $message = "Pemesanan Tiket Kapal {$id->title}, Mohon isi data yang kosong di bawah ini\n"
-        . "Nama: ,\n"
-        . "Alamat: ,\n"
-        . "Keberangkatan: {$id->keberangkatan},\n"
-        . "Tujuan: {$id->tujuan},\n"
-        . "Waktu Keberangkatan: {$id->waktu_keberangkatan},\n"
-        . "Jumlah Tiket: ,\n"
-        . "Link asal informasi tiket: {$link}\n"
-        ;
+        $message = "⛴️ *Pemesanan Tiket Kapal*\n"
+        . "\n"
+        . "🛳️ *Tiket:*\n"
+        . "  - Judul Tiket: {$id->title}\n"
+        . "\n"
+        . "🛫 *Keberangkatan:*\n"
+        . "  - Lokasi: {$id->keberangkatan}\n"
+        . "  - Waktu: {$id->waktu_keberangkatan}\n"
+        . "\n"
+        . "🛬 *Tujuan:*\n"
+        . "  - Lokasi: {$id->tujuan}\n"
+        . "\n"
+        . "📝 *Informasi Penumpang:*\n"
+        . "  - Nama: \n"
+        . "  - Alamat: \n"
+        . "  - Jumlah Tiket: \n"
+        . "\n"
+        . "🔗 *Link Asal Informasi Tiket:*\n"
+        . "  {$link}\n";
+
 
         return redirectToWhatsApp($message);
     }
