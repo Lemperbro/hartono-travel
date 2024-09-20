@@ -190,14 +190,6 @@
     <script>
         $(document).ready(function() {
             const oldImageData = @json($data->image);
-            const appUrl = "{{ $appUrl }}";
-
-            function ensureFullUrl(path) {
-                if (path.startsWith('http://') || path.startsWith('https://')) {
-                    return path;
-                }
-                return appUrl + '/' + path;
-            }
             // filePond start
             const fullUrl = `{{ asset('TiketKapalImage') }}/${oldImageData}`;
             console.log(fullUrl);
